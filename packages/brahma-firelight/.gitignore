@@ -1,0 +1,4 @@
+# No way
+node_modules
+.env
+.env.local

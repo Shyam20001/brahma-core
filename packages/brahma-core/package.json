@@ -1,0 +1,53 @@
+{
+  "name": "@brahma-1/brahma-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "binaryName": "brahma-js",
+    "targets": [
+      "aarch64-apple-darwin",
+      "aarch64-linux-android",
+      "aarch64-unknown-linux-gnu",
+      "aarch64-unknown-linux-musl",
+      "aarch64-pc-windows-msvc",
+      "armv7-unknown-linux-gnueabihf",
+      "armv7-unknown-linux-musleabihf",
+      "x86_64-unknown-linux-musl",
+      "x86_64-unknown-freebsd",
+      "i686-pc-windows-msvc",
+      "armv7-linux-androideabi",
+      "universal-apple-darwin",
+      "riscv64gc-unknown-linux-gnu"
+    ]
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "build": "napi build --platform --release",
+    "version": "napi version",
+    "clean": "cargo clean"
+  },
+  "repository": "https://github.com/Shyam20001/brahma-core.git",
+  "description": "This Plug in created by Shyam to make use of RUST TOKIO features in Node/Deno/Bun Runtimes",
+  "optionalDependencies": {
+    "@brahma-1/brahma-core-darwin-arm64": "1.0.0",
+    "@brahma-1/brahma-core-android-arm64": "1.0.0",
+    "@brahma-1/brahma-core-linux-arm64-gnu": "1.0.0",
+    "@brahma-1/brahma-core-linux-arm64-musl": "1.0.0",
+    "@brahma-1/brahma-core-win32-arm64-msvc": "1.0.0",
+    "@brahma-1/brahma-core-linux-arm-gnueabihf": "1.0.0",
+    "@brahma-1/brahma-core-linux-arm-musleabihf": "1.0.0",
+    "@brahma-1/brahma-core-linux-x64-musl": "1.0.0",
+    "@brahma-1/brahma-core-freebsd-x64": "1.0.0",
+    "@brahma-1/brahma-core-win32-ia32-msvc": "1.0.0",
+    "@brahma-1/brahma-core-android-arm-eabi": "1.0.0",
+    "@brahma-1/brahma-core-darwin-universal": "1.0.0",
+    "@brahma-1/brahma-core-linux-riscv64-gnu": "1.0.0"
+  }
+}

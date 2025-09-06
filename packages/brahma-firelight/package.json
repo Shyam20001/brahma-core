@@ -1,0 +1,15 @@
+{
+  "name": "@brahma-1/brahma-firelight",
+  "version": "1.0.0",
+  "description": "This is a custom Rust runtime specially created to work with nodejs, denojs and bunjs by Shyam. M",
+  "main": "bundle.main.js",
+  "keywords": [
+    "NodeJs",
+    "Rust",
+    "Hyper",
+    "BunJs",
+    "DenoJs"
+  ],
+  "author": "Shyam20001",
+  "license": "MIT"
+}

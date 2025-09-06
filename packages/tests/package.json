@@ -1,0 +1,15 @@
+{
+  "name": "@brahma-1/tests",
+  "version": "1.0.0",
+  "author": "Shyam20001",
+  "main": "main.js",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
