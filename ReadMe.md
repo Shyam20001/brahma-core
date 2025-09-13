@@ -34,8 +34,8 @@ Pull requests are welcome! Please open an issue first to discuss major changes.
 
 This project is licensed under either of:
 
-- [MIT License](./LICENSE-MIT)
-- [Apache License, Version 2.0](./LICENSE-APACHE)
+- [MIT License](./LICENSES/LICENSE-MIT)
+- [Apache License, Version 2.0](./LICENSES/LICENSE-APACHE)
 
 at your option.
 

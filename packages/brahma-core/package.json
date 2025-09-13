@@ -21,7 +21,7 @@
       "riscv64gc-unknown-linux-gnu"
     ]
   },
-  "license": "MIT",
+  "license": "(MIT OR Apache-2.0)",
   "devDependencies": {
     "@napi-rs/cli": "^3.0.0"
   },

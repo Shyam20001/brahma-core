@@ -10,7 +10,7 @@ Provides high-performance server bindings with prebuilt binaries for macOS, Linu
 ```bash
 npm install
 npm run build
-````
+```
 
 ## Test
 
@@ -24,7 +24,5 @@ npm run test # runs Vitest
 
 Dual licensed under:
 
-* [MIT](./LICENSE-MIT)
-* [Apache-2.0](./LICENSE-APACHE)
-
-
+- [MIT](./LICENSES/LICENSE-MIT)
+- [Apache-2.0](./LICENSES/LICENSE-APACHE)

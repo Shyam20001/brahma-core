@@ -4,6 +4,7 @@ authors = ["Shyam. M <shayammurali@gmail.com>"]
 edition = "2021"
 name = "brahma-core"
 version = "1.0.0"
+license = "MIT OR Apache-2.0"
 
 [lib]
 crate-type = ["cdylib"]
