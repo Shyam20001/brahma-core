@@ -148,8 +148,8 @@ autocannon -c 100 -d 10 -p 10 http://127.0.0.1:3000/hi
 
 Dual licensed under:
 
-- [MIT](./LICENSE-MIT)
-- [Apache-2.0](./LICENSE-APACHE)
+- [MIT](./LICENSES/LICENSE-MIT)
+- [Apache-2.0](./LICENSES/LICENSE-APACHE)
 
 ---
 
