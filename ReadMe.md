@@ -6,9 +6,9 @@ Welcome to **Brahma-JS**, an open-source high-performance server framework that 
 
 Brahma-JS provides:
 
-* **Rust core** (`brahma-core`) built with [napi-rs](https://napi.rs), managing sockets, HTTP parsing, and async execution.
-* **Starter framework** (`brahma-firelight`) for quickly scaffolding new applications.
-* **Tests** (`tests`) containing JavaScript checks powered by Vite.
+- **Rust core** (`brahma-core`) built with [napi-rs](https://napi.rs), managing sockets, HTTP parsing, and async execution.
+- **Starter framework** (`brahma-firelight`) for quickly scaffolding new applications.
+- **Tests** (`tests`) containing JavaScript checks powered by Vite.
 
 ## Monorepo Structure
 
@@ -21,15 +21,22 @@ Brahma-JS provides:
 
 ## Features
 
-* 🚀 Written in Rust, exposed to Node.js via N-API.
-* 🧵 Scales across multiple cores (Tokio runtime).
-* 🔒 One-shot request/response guarantees.
-* 📦 Organized as a monorepo for easy collaboration.
+- 🚀 Written in Rust, exposed to Node.js via N-API.
+- 🧵 Scales across multiple cores (Tokio runtime).
+- 🔒 One-shot request/response guarantees.
+- 📦 Organized as a monorepo for easy collaboration.
 
 ## Contributing
 
 Pull requests are welcome! Please open an issue first to discuss major changes.
 
-## License
+## 🧾 License
 
-MIT License © 2025 Brahma-JS Contributors
+This project is licensed under either of:
+
+- [MIT License](./LICENSE-MIT)
+- [Apache License, Version 2.0](./LICENSE-APACHE)
+
+at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in this project shall be dual licensed as above, without any additional terms or conditions.
